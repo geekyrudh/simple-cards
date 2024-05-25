@@ -32,7 +32,7 @@
   - cards assigned to players
   - First card is added to pile
   - Server waits for input from P1
-- Each player sends an update beacon to the server twice a second to get the updated status
+- Use WebSockets(?) to update the server and all clients on every action
 - When it's a player's turn:
   - User can pass turn to next player
   - User can pick a card from slab:
