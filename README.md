@@ -7,8 +7,8 @@
 - multiple decks (randomised) in play to prevent counting
 - each player starts with 'n' cards
 - there is a slab of shuffled, face down cards
-- the 'pile' starts with a card drawn from the slab
-- one card a turn is added to a pile, as long as it is either:
+- the  open pile starts with a card drawn from the slab
+- upto one card can be added to the pile every turn, as long as it is either:
     - Same suit as the one on top of the pile
     - same number as the one on top of the pile
 - Player can always skip their turn
