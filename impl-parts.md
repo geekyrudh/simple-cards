@@ -1,16 +1,54 @@
-## Implementation Pieces
+# Implementation Pieces
+
+## V2
+
+### Main Container
+  - Map<ID,Room> rooms
+####
+  - API Endpoint(s?)
+  - Game Logic
+
+### Room
+  - str ID
+  - User[] users
+  - Deck deck
+  - Deck pile
+  - int currentUserIndex
+
+### User
+  - str ID
+  - Card[] hand
+
+### Deck
+  - Card[] cards
+
+### Card
+  - Suit suit
+  - int value
+
+### Enum Suit
+  - Red
+  - Yellow
+  - Green
+  - Blue
+
+
+## V1
+
+### Main Controller
+  - Create room instance with attributes (number of players, user - player 1)
+  - Add room reference to map (entry key to be public ID)
+  - Control access to room (add and remove users)
+  - Room existence check
+  - Destroy room
 
 ### Room Management
-  - Create instance with attributes (number of players, user - player 1)
-  - Add reference to map (entry key to be public ID)
-  - destroy room and remove references
-  - Add user to room
-  - Remove user from room
-  - get room state
-  - existence check
+  - Add user
+  - Remove user
+  - Get state
   - Entry conditions met?
-  - initialise all composite objects and start game loop
-  - is play legal? (correct player, card played allowed, integrity check...)
+  - Initialise all composite objects and start game loop
+  - Is play legal? (correct player, card played allowed, integrity check...)
   - Exit conditions met?
 
 ### Room > User management
