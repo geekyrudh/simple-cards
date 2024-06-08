@@ -18,9 +18,18 @@
 ### User
   - str ID
   - Card[] hand
+  ####
+  - Card[] peekHand()
+  - Card retrieveCard(int[] indices)
+  - void addCards(Card[] cards)
 
 ### Deck
   - Card[] cards
+  ####
+  - Card peek()
+  - Card withdraw(int count)
+  - void addCards(Card[] cards)
+  - void shuffle()
 
 ### Card
   - Suit suit
