@@ -20,7 +20,7 @@
   - Card[] hand
   ####
   - Card[] peekHand()
-  - Card retrieveCard(int[] indices)
+  - Card retrieveCards(int[] indices)
   - void addCards(Card[] cards)
 
 ### Deck
